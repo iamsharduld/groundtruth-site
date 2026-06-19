@@ -9,8 +9,8 @@
 
   // Elements worth a soft entrance — one per "thought", not everything.
   var targets = document.querySelectorAll(
-    ".facts li, .aside, .steps li, .cost-line, .chart, .shots .shot, " +
-    ".takeaway, .honest-img, .honest-copy"
+    ".facts li, .aside, .timeline li, .steps li, .cost-line, .chart, .shots .shot, " +
+    ".checks li, .takeaway, .faq-item"
   );
 
   targets.forEach(function (el, i) {
